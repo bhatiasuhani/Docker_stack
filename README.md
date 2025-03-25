@@ -1,134 +1,69 @@
-# 🚀 Docker Projects & Experiments 🐳  
+# 🐳 DockSpace: My Containerized Creations ⚓
 
-Welcome to the **Docker Projects Repository**! This collection features **Dockerized applications**, including **ML apps, databases, network experiments, and AWS deployments**.  
+Welcome to **DockSpace!** 🌊 This repository is my personal harbor of containerized projects, where I explore **Docker** to build **scalable, efficient, and production-ready** applications. 🛠️💡 Each project showcases a different aspect of containerization, from simple image creation to complex multi-container setups. 🚀
 
-Each project showcases **real-world use cases** of containerization, helping you master **Docker for software development & cloud deployments**.  
+## 📦 Containerized Projects on Board:
 
----
+### 1️⃣ DOCKER BASICS: Hello, Container World! 🐳
+- **Goal:** Kickstart my Docker journey by running the classic "Hello World" container.
+- **Key Focus:** Understanding basic Docker commands, image execution, and container runtime.
 
+### 2️⃣ Dockerized Streamlit Development Environment 📊
+- **Goal:** Build a containerized Streamlit environment for smooth and efficient data visualization.
+- **Key Focus:** Web app deployment, interactive UI, and container efficiency.
 
+### 3️⃣ Titanic Survival Predictor: Containerized Streamlit App 🚢
+- **Goal:** Deploy a Machine Learning-powered Titanic survival prediction app using Streamlit and Docker.
+- **Key Focus:** ML model serving, interactive UI, and cloud deployment.
 
-## 📚 Learning Resources
+### 4️⃣ Containerized MySQL: Agile & Efficient 🐬
+- **Goal:** Deploy MySQL in a Docker container, ensuring fast, reliable, and persistent database management.
+- **Key Focus:** Data persistence, networking, and security.
 
-Here are some useful resources I frequently refer to:
+### 5️⃣ Docker Volume Persistence: Bind Mounts with Linux Containers 🗂️
+- **Goal:** Ensure data persistence and prevent loss by using Docker volumes and bind mounts.
+- **Key Focus:** Storage management, Linux containers, and backups.
 
-📖 [Official Docker Docs](https://docs.docker.com/)  
-🎥 [Docker YouTube Playlist](https://www.youtube.com/c/Docker)  
-📜 [Docker Cheat Sheet](https://dockerlabs.collabnix.com/docker/cheatsheet/)  
+### 6️⃣ Docker Bridge: Balancing Isolation & Connectivity 🔗
+- **Goal:** Master Docker bridge networks to create a balance between container isolation and seamless connectivity.
+- **Key Focus:** Multi-container communication, secure networking, and efficiency.
 
----
+### 7️⃣ Streamlit & PostgreSQL, Docked 🐘
+- **Goal:** Connect Streamlit with PostgreSQL inside a containerized environment for real-time data interaction.
+- **Key Focus:** Full-stack integration, database handling, and scalable applications.
 
-## 🛠 Prerequisites  
+### 8️⃣ Evidently AI Sets Sail in Docker 🧠
+- **Goal:** Run Evidently AI inside a Docker container to analyze ML model performance and detect data drift.
+- **Key Focus:** AI model monitoring, automation, and analytics.
 
-Make sure you have the following installed:  
+### 9️⃣ Minikube with Docker on Windows ☸️
+- **Goal:** Set up Minikube with Docker on Windows for running Kubernetes clusters locally in a Docker container.
+- **Key Focus:** Kubernetes management, local cluster setup, and Docker integration on Windows.
 
-✅ **Docker** → `docker --version`  
-✅ **Python** (for Streamlit apps)  
-✅ **AWS CLI** (for EC2 deployment)  
+### 🔟 Deploying a Streamlit App in Docker on AWS EC2 ☁️
+- **Goal:** Deploy a containerized Streamlit application on an AWS EC2 instance for seamless and scalable web app hosting.
+- **Key Focus:** AWS networking, Docker containerization, cloud deployment, and security.
 
----
+### 1️⃣1️⃣ Microservices Orchestration with Minikube & Kubernetes ☸️
+- **Goal:** Deploy and manage microservices efficiently using Kubernetes and Minikube.
+- **Key Focus:** Service discovery, load balancing, and containerized microservices deployment.
 
-## 🚀 Projects & Experiments  
+### 1️⃣2️⃣ Microservices Architecture using Docker Swarm ⚓
+- **Goal:** Build and deploy a scalable microservices-based application using Docker Swarm.
+- **Key Focus:** Load balancing, service discovery, and distributed application management.
 
-🔹 **[EXP-1: Streamlit Spiral Visualization](https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-01)**  
-🔹 **[EXP-2: Binary Classification WebApp](https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-02)**  
-🔹 **[EXP-3: Python Logging with Docker](https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-03)**  
-🔹 **[EXP-4: Streamlit + PostgreSQL](https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-04)**  
-🔹 **[EXP-5: MySQL Docker Container](https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-05)**  
-🔹 **[EXP-6: Docker Network Experiment](https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-06)**  
-🔹 **[EXP-7: ML Model Deployment with Evidently](https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-07)**  
-🔹 **[EXP-8: Deploying on AWS EC2](https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-08)**  
-🔹 **[EXP-9: Minikube with Docker](https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-09)**  
-🔹 **[EXP-10: Docker Bake](https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-10)**  
-
----
-
-### 🌟 **Spiral Visualization**  
-📌 **Description:** A **Dockerized Streamlit app** to generate interactive spiral patterns.  
-🛠 **How to Run:**  
-```bash  
-docker build -t streamlit-spiral .  
-docker run -p 8501:8501 streamlit-spiral  
-```
-🔗 **[View Project](https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-1)**  
-
----
-
-### 🌟 **Binary Classification WebApp**  
-📌 **Description:** A **Streamlit-based ML app** for binary classification using Logistic Regression.  
-🛠 **How to Run:**  
-```bash  
-docker build -t binary-classifier .  
-docker run -p 8501:8501 binary-classifier  
-```
-🔗 **[View Project Code](https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-2)**  
+### 1️⃣3️⃣ Bakery Foundation Example on Windows 🍞
+- **Goal:** Set up Packer on Windows to create a custom Amazon Machine Image (AMI) with Python 3.9.
+- **Key Focus:** Image automation, AWS infrastructure provisioning, and hands-on cloud deployment.
 
 ---
 
-### 🌟 **Python Logging with Docker**  
-📌 **Description:** Demonstrates **best practices for logging** inside a **Dockerized Python environment**.  
-🛠 **How to Run:**  
-```bash  
-docker build -t python-logging .  
-docker run python-logging  
-```
-🔗 **[View Project](https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-3)**  
+## Why DockSpace? ⚓
 
----
+🚀 **Goal:** To master containerized applications, networking, storage, and deployments for real-world use cases.
+🔬 **Approach:** Hands-on learning with modular, scalable, and production-ready implementations.
+🔮 **Future Plans:** Expanding into Kubernetes, advanced cloud-based deployments, and DevOps automation! ☁️
 
-### 🌟 **Streamlit + PostgreSQL**  
-📌 **Description:** Connect **Streamlit with PostgreSQL database** inside a **Docker container**.  
-🔗 **[View Project](https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-4)**  
+Stay tuned for more containerized innovations from **DockSpace!** ⚓🚀
 
----
-
-### 🌟 **MySQL Docker Container**  
-📌 **Description:** Deploy a **MySQL database container** and connect it to applications.  
-🔗 **[View Project](https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-5)**  
-
----
-
-### 🌟 **Docker Network Experiment**  
-📌 **Description:** Understand **networking in Docker** by connecting multiple containers.  
-🔗 **[View Project](https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-6)**  
-
----
-
-### 🌟 **ML Model Deployment with Evidently**  
-📌 **Description:** Deploy an ML model with **Evidently AI** inside a Docker container.  
-🔗 **[View Project](https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-7)**  
-
----
-
-### 🌟 **Deploying on AWS EC2**  
-📌 **Description:** Deploy **Dockerized applications** on an **AWS EC2 instance**.  
-🔗 **[View Project](https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-8)**  
-
----
-
-### 🌟 **Minikube with Docker**  
-📌 **Description:** Run **Kubernetes locally** using Minikube with Docker.  
-🔗 **[View Project](https://github.com/Aditya5757raj/Docker_Practices/tree/main/Exp-9)**  
-
----
-
-## 📚 Learning Resources  
-
-📖 **[Docker Docs](https://docs.docker.com/)**  
-📖 **[Streamlit Docs](https://docs.streamlit.io/)**  
-📖 **[AWS CLI Setup](https://aws.amazon.com/cli/)**  
-
----
-
-
-
-## 🤝 Contributions  
-
-💡 Found a bug? **Open an issue!**  
-✨ Have an idea? **Submit a PR!**  
-📖 Want to improve docs? **Contribute!**  
-
----
-
-🔥 **Happy Learning & Containerizing!** 🐳🚀
-
+By **Suhani Bhatia**
